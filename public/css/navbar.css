@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #4CAF50;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+nav a.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    nav a.right, nav a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
